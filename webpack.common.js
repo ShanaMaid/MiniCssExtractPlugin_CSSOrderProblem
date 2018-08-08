@@ -2,7 +2,7 @@ const path = require('path');
 
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const MiniCssExtractPlugin = require('./mini-css-extract-plugin/cjs.js');
 const autoprefixer = require('autoprefixer');
 const paths = require('./config/paths');
 const appPackageJson = require(paths.appPackageJson);
